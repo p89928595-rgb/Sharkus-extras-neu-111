@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "sharkus-extras",
+  "version": "${version}",
+  "name": "Sharkus Extras",
+  "description": "Kleine Client-Extras mit Menü (Taste Ü).",
+  "authors": ["Sharku"],
+  "environment": "client",
+  "entrypoints": { "client": ["sharkus.extras.SharkusExtras"] },
+  "mixins": ["sharkus-extras.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

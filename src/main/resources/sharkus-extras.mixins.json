@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "sharkus.extras.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["LanguageMixin", "EntityMixin", "OverlayTextureMixin", "GameRendererMixin", "AbstractContainerScreenMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
